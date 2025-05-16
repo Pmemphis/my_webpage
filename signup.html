@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 600px;
+      max-height: 400px;
+    }
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .login-link {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .login-link a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+    label{
+        padding-right: 20px;
+        height: 12px;
+        width: ;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        
+    }
+    .srch{
+    font-family: 'Times New Roman';
+    width: 330px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    }
+    .btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Sign Up</h2>
+    <form method="" action="">
+        <label for="Username">Username</label><br>
+      <input class="srch" type="text" name="name" placeholder="Full Name" required><br>
+      <label for="email">Enter your Email</label><br>
+      <input class="srch" type="email" name="email" placeholder="Email Address" required><br>
+      <label for="password"> Type your Password</label><br>
+      <input  class="srch" type="password" name="password" placeholder="Password" required><br>
+      <button class="btnn" type="submit">Sign Up</button>
+    </form>
+    <div class="login-link">
+      Already have an account? <a href="index.html">Log In</a>
+    </div>
+  </div>
+</body>
+</html>
