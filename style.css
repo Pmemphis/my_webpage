@@ -574,4 +574,12 @@ figcaption{
     text-align: left;
   }
 }
+@media (max-width: 600px) {
+    .main {
+      padding: 15px;
+    }
+     h1 {
+      font-size: 2rem;
+    }
+  }
   
